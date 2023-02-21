@@ -107,13 +107,19 @@ export default function Home() {
           </div>
         </div>
         <div className="p-[.05em] rounded-2xl w-full bg-neutral-100"></div>
-        <h2>I'm Jacob (or Jake)</h2>
+        <h2>I&#39;m Jacob (or Jake)</h2>
         <p>
-          I'm a mid-level Product Designer leading end-to-end shopping
-          experiences within the app, at <a href="https://zip.co">Zip</a>. I'm
-          currently based in Brooklyn, NY. My dream is “make it” as a
-          professional musician but while that's cooking I have been enjoying
-          the 5+ year journery design has simultaneously taken me on.
+          I&#39;m a mid-level Product Designer leading end-to-end shopping
+          experiences within the app, at{' '}
+          <a
+            className="text-blue-500 underline decoration-blue-400 hover:text-blue-700"
+            href="https://zip.co"
+          >
+            Zip
+          </a>
+          . I &#39;m currently based in Brooklyn, NY. My dream is to “make it”
+          as a professional musician but while that&#39;s cooking I have been
+          enjoying the 5+ year journey design has simultaneously taken me on.
         </p>
         <div className="space-y-2">
           <p>Some things I believe in...</p>
@@ -126,8 +132,8 @@ export default function Home() {
           </ul>
         </div>
         <p>
-          Let's dive deeper into about <b>what I'm up to</b>,{' '}
-          <b>where I've been</b>, and <b>where I'm hoping to go</b>.
+          Let&#39;s dive deeper into about <b>what I&#39;m up to</b>,{' '}
+          <b>where I&#39;ve been</b>, and <b>where I&#39;m hoping to go</b>.
         </p>
         <div>
           <div className="flex items-center space-x-2 pb-2">
@@ -152,7 +158,10 @@ export default function Home() {
                   </p>
                   <h4 className="text-base font-medium">
                     Leading shopping experiences in the app at{' '}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
+                    <a
+                      href="https://zip.co"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
                       Zip
                     </a>
                   </h4>
@@ -171,7 +180,10 @@ export default function Home() {
                   </p>
                   <h4 className="text-base font-medium">
                     Publishing music as{' '}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
+                    <a
+                      href="https://jacobs.blue"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
                       Jacob’s Blue
                     </a>
                   </h4>
@@ -182,15 +194,24 @@ export default function Home() {
                   </p>
                   <h4 className="text-base font-medium">
                     Reading {''}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
+                    <a
+                      href="https://g.co/kgs/dHQueu"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
                       Musashi
                     </a>
                     ,{' '}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
+                    <a
+                      href="https://www.google.com/search?q=the+timeless+way+of+building+book&ei=Qun0Y97uHLOi5NoPyM6CoAg&oq=the+timeless+way+obook&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgkIABAHEB4Q8QQyBggAEAcQHjIJCAAQBxAeEPEEMgUIABCGAzIFCAAQhgM6CwgAEAcQHhDxBBAKOgcIABCABBAKOgsILhCABBDHARCvAToECC4QQzoICC4QgAQQsQM6BAgAEEM6BQguEIAEOgUIABCxAzoHCAAQDRCABDoLCAAQCBAHEB4Q8QQ6CAgAEAgQBxAeOgkIABAeEA8Q8QQ6BggAEAgQHjoJCAAQCBAeEPEEOgsIABAeEA0QDxDxBDoLCAAQCBAeEA0Q8QRKBAhBGABQAFj_EWCHHGgAcAF4AIABxQGIAcsMkgEEMTUuM5gBAKABAcABAQ&sclient=gws-wiz-serp"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
                       The Timeless way of Building
                     </a>
                     , and now some articles about{' '}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
+                    <a
+                      href="https://www.smithsonianmag.com/innovation/douglas-engelbart-invented-future-180967498/"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
                       Douglas Engelbart
                     </a>
                   </h4>
@@ -210,7 +231,10 @@ export default function Home() {
                   </p>
                   <h4 className="text-base font-medium">
                     Working out{' '}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
+                    <a
+                      href="https://www.oliverburkeman.com/dailyish"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
                       dailyish
                     </a>
                   </h4>
@@ -232,9 +256,12 @@ export default function Home() {
                     <Emoji symbol="📱" />
                   </p>
                   <h4 className="text-base font-medium">
-                    Lead end-to-end product solutions for an Internal Agency{' '}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
-                      @ Charter Communications
+                    Lead end-to-end product solutions for an Internal Agency @{' '}
+                    <a
+                      href="https://www.spectrum.com/7"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
+                      Charter Communications
                     </a>
                   </h4>
                 </div>
@@ -244,7 +271,10 @@ export default function Home() {
                   </p>
                   <h4 className="text-base font-medium">
                     Helped Charities Raise more @{' '}
-                    <a className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer">
+                    <a
+                      href="https://charitybuzz.com"
+                      className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
+                    >
                       Charitybuzz
                     </a>
                   </h4>
@@ -324,9 +354,9 @@ export default function Home() {
             I know a lot about Notion as a product but would love to learn more
             about the people working there and the problems you all are working
             through! It would mean a lot to me if you would email me with your
-            best answers to these questions!
+            best answers to these questions.
           </p>
-          <div className="space-y-4 pt-6">
+          <div className="space-y-4 pt-2">
             <div className="flex items-start space-x-1">
               <div className="p-3 relative">
                 <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
@@ -380,8 +410,11 @@ export default function Home() {
           <a className="flex justify-center w-full bg-blue-500 hover:bg-blue-600 transition cursor-pointer text-white py-2 align-middle text-center rounded-md">
             Email Jake
           </a>
-          <a className="flex justify-center w-full border-[1.5px] hover:bg-blue-500 hover:text-white cursor-pointer transition border-blue-500 text-blue-500 py-2 align-middle text-center rounded-md">
-            Download Jake's Resume
+          <a
+            href="jmedure_resume.pdf"
+            className="flex justify-center w-full border-[1.5px] hover:bg-blue-500 hover:text-white cursor-pointer transition border-blue-500 text-blue-500 py-2 align-middle text-center rounded-md"
+          >
+            Download Jake&#39;s Resume
           </a>
         </div>
         <p className="text-neutral-400 justify-center text-center text-sm w-full py-4 font-mono">
