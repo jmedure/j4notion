@@ -11,10 +11,6 @@ export default function Home() {
       <>
         <Head>
           <title>Jacob Medure for Notion</title>
-          <description>
-            Jacob Medure product designer based in Brooklyn, NY. Applying for
-            Notion.
-          </description>
         </Head>
       </>
       <Header />
