@@ -3,7 +3,7 @@ import Emoji from './Emoji';
 
 export default function Header() {
   return (
-    <div className="flex bg-white w-full p-4 space-x-2 justify-between flex-row border-b border-[#EDEDEC] sticky top-0">
+    <div className="flex bg-white w-full p-4 z-20 py-3 items-center space-x-2 justify-between flex-row border-b border-[#EDEDEC] sticky top-0">
       <div className="text-lg font-sans flex space-x-2">
         <p>
           <Emoji label="hand-wave" symbol="👋" />
