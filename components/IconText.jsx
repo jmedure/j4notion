@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function IconText(props) {
   return (
-    <div className="flex items-center space-x-2 w-[50%]">
+    <div className="flex items-center space-x-2 w-[70%] sm:w-[40%]">
       <div className="p-3 relative">
         <Image src={props.src} alt={props.alt} fill="cover" />
       </div>

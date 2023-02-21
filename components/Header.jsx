@@ -10,7 +10,12 @@ export default function Header() {
         </p>
         <p>Jacob for Notion</p>
       </div>
-      <p className="button-primary py-1 rounded-md px-2">Email Jake</p>
+      <a
+        className="button-primary py-1 rounded-md px-2 transition-all hover:bg-blue-600 cursor-pointer"
+        href="mailto:jacob.medure@gmail.com"
+      >
+        Email Jake
+      </a>
     </div>
   );
 }

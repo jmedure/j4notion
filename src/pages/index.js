@@ -19,7 +19,7 @@ export default function Home() {
             <IconText src="users.svg" alt="users icon" text="Who" />
             <p className="w-full">Jacob (Jake) Medure</p>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 items-start">
             <IconText src="text_left.svg" alt="textleft" text="Tagline" />
             <p className="w-full">A designer that can code</p>
           </div>
@@ -27,7 +27,7 @@ export default function Home() {
             <IconText src="text_left.svg" alt="textleft" text="Experience" />
             <p className="w-full">5+ years</p>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 items-start">
             <IconText src="at.svg" alt="at symbol" text="Contact" />
             <p className="w-full">
               <a
@@ -60,7 +60,7 @@ export default function Home() {
               </a>
             </p>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 items-start">
             <IconText src="link.svg" alt="link symbol" text="LinkedIn" />
             <p className="w-full">
               <a
@@ -72,6 +72,41 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className="p-[.05em] rounded-2xl w-full bg-neutral-100"></div>
+        <div className="flex space-x-4 items-start">
+          <div className="p-3 mt-1 rounded-full overflow-clip drop-shadow-sm relative">
+            <Image src="/jake.jpg" alt="jake" fill="fit" />
+          </div>
+          <div className="w-full flex-block space-y-2 pt-1">
+            <div className="flex space-x-2 items-center">
+              <p>
+                <b>Jake</b>
+              </p>
+              <p className="text-[#9A9A97] small">5 hours ago</p>
+            </div>
+            <p>
+              I spun this site up over the weekend when I heard Notion was
+              hiring and specifically looking for product deisgners that could
+              refine designs in the front end. I hope this is an adequate
+              display. I used{' '}
+              <a
+                className="text-blue-500 underline decoration-blue-400 hover:text-blue-700"
+                href="https://nextjs.org"
+              >
+                Next.js
+              </a>{' '}
+              +{' '}
+              <a
+                className="text-blue-500 underline decoration-blue-400 hover:text-blue-700"
+                href="https://tailwindcss.com"
+              >
+                Tailwind
+              </a>
+              . Thanks for stopping by!
+            </p>
+          </div>
+        </div>
+        <div className="p-[.05em] rounded-2xl w-full bg-neutral-100"></div>
         <h2>I'm Jacob (or Jake)</h2>
         <p>
           I'm a mid-level Product Designer leading end-to-end shopping
@@ -81,7 +116,7 @@ export default function Home() {
           the 5+ year journery design has simultaneously taken me on.
         </p>
         <div className="space-y-2">
-          <p>Somethings I believe in...</p>
+          <p>Some things I believe in...</p>
           <ul className="list-disc list-inside indent-2">
             <li>first principles</li>
             <li>trying my best</li>
@@ -184,7 +219,7 @@ export default function Home() {
               <p className=" text-[#7DA3C2] p-1">+ New</p>
             </div>
             {/* SECOND column below */}
-            <div className="p-2 rounded-lg bg-[#F8FAF7] space-y-2 relative w-full flex-block min-w-[80%] sm:w-[320px] sm:min-w-[320px] flex-col">
+            <div className="p-2 rounded-lg bg-[#F8FAF7] space-y-2 relative w-full flex-block min-w-[80%] sm:w-[320px] sm:min-w-[320px] h-full">
               <div className="flex space-x-2 w-full items-center">
                 <p className="font-semibold small px-1 rounded-md text-[#23372A] bg-[#DEECDC]">
                   Previously
@@ -234,7 +269,7 @@ export default function Home() {
               <p className="text-[#7FA087] p1">+ New</p>
             </div>
             {/* THIRD COLUMN */}
-            <div className="p-2 rounded-lg bg-[#FAF9FD] space-y-2 relative w-full flex-block min-w-[80%] sm:w-[320px] sm:min-w-[320px] flex-col">
+            <div className="p-2 rounded-lg bg-[#FAF9FD] space-y-2 relative w-full h-full flex-block min-w-[80%] sm:w-[320px] sm:min-w-[320px] flex-col">
               <div className="flex space-x-2 w-full items-center">
                 <p className="font-semibold small px-1 rounded-md text-[#3D2551] bg-[#E6DEED]">
                   In the near future
@@ -283,7 +318,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="py-4 space-y-2">
+        <div className="pt-6 space-y-4">
           <h2>About you</h2>
           <p>
             I know a lot about Notion as a product but would love to learn more
@@ -291,65 +326,67 @@ export default function Home() {
             through! It would mean a lot to me if you would email me with your
             best answers to these questions!
           </p>
+          <div className="space-y-4 pt-6">
+            <div className="flex items-start space-x-1">
+              <div className="p-3 relative">
+                <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
+              </div>
+              <p>
+                What are your top 1-3 challenges you face over the next 6-12
+                months that design can be leveraged to solve? As an
+                organization? Department? Team?
+              </p>
+            </div>
+            <div className="flex items-start space-x-1">
+              <div className="p-3 relative">
+                <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
+              </div>
+              <p>
+                What do you need from a new team member in order to successfully
+                work through these challenges?
+              </p>
+            </div>
+            <div className="flex items-start space-x-1">
+              <div className="p-3 relative">
+                <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
+              </div>
+              <p>
+                What’s your team structure like? How many designers? Who are
+                your main stakeholders?
+              </p>
+            </div>
+            <div className="flex items-start space-x-1">
+              <div className="p-3 relative">
+                <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
+              </div>
+              <p>
+                How do you make space for collabortion and bonding in a
+                remote-first culture?
+              </p>
+            </div>
+            <div className="flex items-start space-x-1">
+              <div className="p-3 relative">
+                <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
+              </div>
+              <p>
+                How important is Design and/or Design Thinking at Notion? Is
+                there C-Suite interest, involvement, advocation?
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="space-y-2">
-          <div className="flex items-start space-x-1">
-            <div className="p-3 relative">
-              <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
-            </div>
-            <p>
-              What are your top 1-3 challenges you face over the next 6-12
-              months that design can be leveraged to solve? As an organization?
-              Department? Team?
-            </p>
-          </div>
-          <div className="flex items-start space-x-1">
-            <div className="p-3 relative">
-              <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
-            </div>
-            <p>
-              What do you need from a new team member in order to successfully
-              work through these challenges?
-            </p>
-          </div>
-          <div className="flex items-start space-x-1">
-            <div className="p-3 relative">
-              <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
-            </div>
-            <p>
-              What’s your team structure like? How many designers? Who are your
-              main stakeholders?
-            </p>
-          </div>
-          <div className="flex items-start space-x-1">
-            <div className="p-3 relative">
-              <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
-            </div>
-            <p>
-              How do you make space for collabortion and bonding in a
-              remote-first culture?
-            </p>
-          </div>
-          <div className="flex items-start space-x-1">
-            <div className="p-3 relative">
-              <Image src="arrow_right.svg" alt="arrow right" fill="cover" />
-            </div>
-            <p>
-              How important is Design and/or Design Thinking at Notion? Is there
-              C-Suite interest, involvement, advocation?
-            </p>
-          </div>
-        </div>
-        <div className="p-[.1em] rounded-2xl w-full bg-neutral-100"></div>
         <p>Thank you for your time and consideration!</p>
-        <div className="w-full space-y-2">
-          <p className="button-primary py-2 align-middle text-center rounded-md w-full">
+        <div className="w-full block sm:w-auto sm:flex sm:items-center sm:space-x-4 sm:space-y-0 space-y-2">
+          <a className="flex justify-center w-full bg-blue-500 hover:bg-blue-600 transition cursor-pointer text-white py-2 align-middle text-center rounded-md">
             Email Jake
-          </p>
-          <p className="button-secondary py-2 align-middle text-center rounded-md w-full">
+          </a>
+          <a className="flex justify-center w-full border-[1.5px] hover:bg-blue-500 hover:text-white cursor-pointer transition border-blue-500 text-blue-500 py-2 align-middle text-center rounded-md">
             Download Jake's Resume
-          </p>
-        </div>{' '}
+          </a>
+        </div>
+        <p className="text-neutral-400 justify-center text-center text-sm w-full py-4 font-mono">
+          Designed and Developed by Jacob Medure 02.21.23
+        </p>
       </main>
     </div>
   );
