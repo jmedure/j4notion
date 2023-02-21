@@ -1,11 +1,18 @@
 import Emoji from 'components/Emoji';
 import Header from 'components/Header';
 import IconText from 'components/IconText';
+import Head from 'next/head';
 import Image from 'next/image';
+import { ReactFragment } from 'react';
 
 export default function Home() {
   return (
-    <div className="overflow-visible">
+    <div className="">
+      <>
+        <Head>
+          <title>Jacob Medure for Notion</title>
+        </Head>
+      </>
       <Header />
       <main className="container space-y-6 py-16 px-4 w-full text-neutral-900 overflow-visible">
         <div className="flex-block w-full">
@@ -117,9 +124,10 @@ export default function Home() {
           >
             Zip
           </a>
-          . I &#39;m currently based in Brooklyn, NY. My dream is to “make it”
-          as a professional musician but while that&#39;s cooking I have been
-          enjoying the 5+ year journey design has simultaneously taken me on.
+          . I &#39;m currently based in Brooklyn, NY. My dream is to &apos;make
+          it&apos; as a professional musician but while that&#39;s cooking I
+          have been enjoying the 5+ year journey design has simultaneously taken
+          me on.
         </p>
         <div className="space-y-2">
           <p>Some things I believe in...</p>
