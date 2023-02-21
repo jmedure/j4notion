@@ -11,6 +11,10 @@ export default function Home() {
       <>
         <Head>
           <title>Jacob Medure for Notion</title>
+          <description>
+            Jacob Medure product designer based in Brooklyn, NY. Applying for
+            Notion.
+          </description>
         </Head>
       </>
       <Header />
@@ -415,7 +419,10 @@ export default function Home() {
         </div>
         <p>Thank you for your time and consideration!</p>
         <div className="w-full block sm:w-auto sm:flex sm:items-center sm:space-x-4 sm:space-y-0 space-y-2">
-          <a className="flex justify-center w-full bg-blue-500 hover:bg-blue-600 transition cursor-pointer text-white py-2 align-middle text-center rounded-md">
+          <a
+            href="mailto:jacobmedure.com"
+            className="flex justify-center w-full bg-blue-500 hover:bg-blue-600 transition cursor-pointer text-white py-2 align-middle text-center rounded-md"
+          >
             Email Jake
           </a>
           <a
