@@ -61,9 +61,9 @@ export default function Home() {
             <p className="w-full">
               <a
                 className="text-blue-500 underline decoration-blue-400 hover:text-blue-700"
-                href="https://jacobs.blue/design"
+                href="https://design.jacobs.blue"
               >
-                jacobs.blue/design
+                design.jacobs.blue
               </a>
             </p>
           </div>
