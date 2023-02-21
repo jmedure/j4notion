@@ -270,7 +270,7 @@ export default function Home() {
                   <h4 className="text-base font-medium">
                     Lead end-to-end product solutions for an Internal Agency @{' '}
                     <a
-                      href="https://www.spectrum.com/7"
+                      href="https://www.spectrum.com"
                       className="underline text-neutral-600 hover:text-neutral-900 transition decoration-neutral-400 hover:decoration-[#37353] cursor-pointer"
                     >
                       Charter Communications
