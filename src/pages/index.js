@@ -93,7 +93,7 @@ export default function Home() {
             </div>
             <p>
               I spun this site up over the weekend when I heard Notion was
-              hiring and specifically looking for product deisgners that could
+              hiring and specifically looking for product designers that could
               refine designs in the front end. I hope this is an adequate
               display. I used{' '}
               <a
